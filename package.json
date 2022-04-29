@@ -1,0 +1,28 @@
+{
+  "name": "part3-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "error": "10.4.0",
+    "lens": "0.0.1",
+    "nodemon": "2.0.15",
+    "standard": "17.0.0"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
